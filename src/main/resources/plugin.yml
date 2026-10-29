@@ -1,0 +1,15 @@
+name: CircuitTest
+version: '1.0.0'
+main: dev.circuit.circuittest.CircuitTest
+api-version: '1.21.11'
+description: Welcome message and test utilities for the Circuit Test Server
+commands:
+  circuittest:
+    description: Test utilities for the Circuit Test Server
+    usage: /<command> help
+    aliases: [ct, ctest]
+    permission: circuittest.use
+permissions:
+  circuittest.use:
+    description: Use the /circuittest test utilities
+    default: op

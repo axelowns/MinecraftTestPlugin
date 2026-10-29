@@ -1,0 +1,10 @@
+welcome:
+  # Text shown to players when they join (always yellow)
+  message: "Circuit Test Server"
+  # Optional smaller line under the title (gray). Leave "" for none.
+  subtitle: ""
+  chat: true
+  title: true
+  actionbar: false
+  # Delay after joining before it is shown (20 ticks = 1 second)
+  delay-ticks: 10
